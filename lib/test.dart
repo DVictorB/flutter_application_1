@@ -133,3 +133,23 @@ void main() {
     print('Color: $color');
   }
 }
+
+//Mapa:
+void main() {
+  // Mapa llamado "persona"
+  Map<String, dynamic> persona = {
+    'nombre': 'Victor',
+    'edad': 22,
+    'ciudad': 'Lima',
+  };
+
+  // Acceder a los valores del mapa
+  String nombre = persona['nombre'];
+  int edad = persona['edad'];
+  String ciudad = persona['ciudad'];
+
+  // Imprimir los valores
+  print('Nombre: $nombre');
+  print('Edad: $edad años');
+  print('Ciudad: $ciudad');
+}
